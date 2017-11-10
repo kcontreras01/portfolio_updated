@@ -1,0 +1,186 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background: #BCB1B7;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+
+}
+
+span {
+  color: #AC6C7E;
+}
+
+li a {
+  display: block;
+  color: #E9E9E9;
+  font-size: 2em;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+  color: #CDCDCD;
+}
+
+section {
+  text-align: center;
+  animation: fadeIn .75s ease-in;
+}
+
+h2, h3 {
+  color: #E9E9E9;
+}
+
+p {
+  width: 50%;
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.hold-text {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 30em;
+  height: 17em;
+  font-size: 1.2em;
+}
+
+.demo {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: #E9E9E9;
+  justify-content: center;
+  font-size: 1.5em;
+}
+.contact a {
+  text-decoration: none;
+  color: #E9E9E9;
+  padding: 1em;
+}
+
+.contact-links {
+  margin-top: .2em;
+}
+
+.logo {
+  margin: 0 auto;
+  font-size: 4em;
+  text-align: center;
+  color: #E9E9E9;
+
+}
+
+#me {
+  width: 24em;
+  height: 18em;
+  border-radius: 8px;
+}
+
+.contact {
+  margin-top: 3em;
+  font-size: 50px;
+}
+
+.contact section {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.contact p {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1em;
+}
+
+.contact a:hover {
+  color: white;
+}
+
+.skills-box {
+  display: flex;
+}
+
+.skills {
+  margin-top: 3em;
+}
+.skills p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 1em;
+  border-radius: 8px;
+  background: #FAFAFA;
+  width: 20vw;
+  box-shadow: 3px 3px 5px #888888;
+}
+
+.skills a {
+  text-decoration: none;
+  color: black;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+
+.projects {
+  width: 30em;
+  height: 20em;
+  border-radius: 8px;
+}
+
+.project-container {
+  height: 40em;
+  overflow-y: scroll;
+}
+
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 375px) {
+}
