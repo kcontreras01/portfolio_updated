@@ -4,8 +4,7 @@ import githired from "../images/githired.png";
 import qwerty from "../images/qwerty.png";
 import weatherapp from "../images/weatherapp.png";
 import electron from "../images/electron.png";
-import c1 from "../images/c1.png";
-import c2 from "../images/c2.png";
+import article from "../images/article.png";
 import kiara from "../images/kiara.jpeg";
 import FontAwesome from "react-fontawesome";
 
@@ -56,21 +55,28 @@ class Portfolio extends Component {
 					</div>
 				</div>
 				<div className="container">
+					<img src={article} className="projects image" />
+					<div className="hold-text">
+							<p>Save That Article built with Express, User Authentication, and NYTimes Article API</p>
+							<p><a className="demo grow" href="https://savethatarticle.herokuapp.com/">Save That Article</a></p>
+					</div>
+				</div>
+				<div className="container">
 					<img src={weatherapp} className="projects" />
 					<div className="hold-text">
 							<p>Worked alongside UX Developers to create a Weather App that is
 							fully CRUD Express/React app</p>
-							<p><a className="demo grow" href="#">WeatherApp</a></p>
+							{/*<p><a className="demo grow" href="#">WeatherApp</a></p>*/}
 					</div>
 				</div>
-				<div className="container">
-					<img src={qwerty} className="projects" />
-					<div className="hold-text">
-							<p>Text-based adventure game about Qwerty the Cat completed with
-							multiple endings. Built with HTML, CSS, Javascript, and jQuery.</p>
-							<p><a className="demo grow" href="#">Qwerty</a></p>
-					</div>
-				</div>
+			{/*	<div className="container">
+								<img src={qwerty} className="projects" />
+								<div className="hold-text">
+										<p>Text-based adventure game about Qwerty the Cat completed with
+										multiple endings. Built with HTML, CSS, Javascript, and jQuery.</p>
+										<p><a className="demo grow" href="qwerty-kpc.bitballoon.com">Qwerty</a></p>
+								</div>
+							</div>*/}
 			</section>
 		);
 	}
@@ -159,7 +165,7 @@ class Portfolio extends Component {
 							<a href="https://github.com/kcontreras01">GitHub</a>
 						</p>
 						<p className="grow">
-							<a href="https://codepen.io/kcontreras01/">Codepen</a>
+							<a href="https://codepen.io/kpcontreras/">Codepen</a>
 						</p>
 					</div>
 				</div>
