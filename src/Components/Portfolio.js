@@ -44,6 +44,7 @@ class Portfolio extends Component {
 					<div className="hold-text">
 							<p>Full CRUD Express/React app hosted with Electron Framework</p>
 							<p><a className="demo grow" href="http://electron-libre.surge.sh/">Noted.</a></p>
+							<p><a className="demo grow" href="">Github</a></p>
 						</div>
 				</div>
 
@@ -52,6 +53,7 @@ class Portfolio extends Component {
 					<div className="hold-text">
 							<p>GitHired App made with Express/React and GitHub Jobs API</p>
 							<p><a className="demo grow" href="http://githiredpotoo.surge.sh/">GitHired</a></p>
+							<p><a className="demo grow" href="">Github</a></p>
 					</div>
 				</div>
 				<div className="container">
@@ -59,6 +61,7 @@ class Portfolio extends Component {
 					<div className="hold-text">
 							<p>Save That Article built with Express, User Authentication, and NYTimes Article API</p>
 							<p><a className="demo grow" href="https://savethatarticle.herokuapp.com/">Save That Article</a></p>
+							<p><a className="demo grow" href="">Github</a></p>
 					</div>
 				</div>
 				<div className="container">
@@ -66,6 +69,7 @@ class Portfolio extends Component {
 					<div className="hold-text">
 							<p>Worked alongside UX Developers to create a Weather App that is
 							fully CRUD Express/React app</p>
+							<p><a className="demo grow" href="">Github</a></p>
 							{/*<p><a className="demo grow" href="#">WeatherApp</a></p>*/}
 					</div>
 				</div>
